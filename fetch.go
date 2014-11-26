@@ -335,7 +335,7 @@ loop:
 				agent = f.getRobotAgent(r)
 				// Initialize the crawl delay
 				if agent != nil && agent.CrawlDelay > 0 {
-					delay = agent.CrawlDelay
+//					delay = agent.CrawlDelay
 				}
 				wait = time.After(delay)
 
